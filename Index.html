@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Avatar Website</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <section>
+                <h1>WHAT DOES YOUR NAME SAY ABOUT YOUR PERSONALITY?</h1>
+                <div class="centerDiv">
+                    <div class="details">
+                        <label>Enter your Name</label>
+                        <br>
+                        <input type="text" name="text" id="nameid">
+                    </div>
+                    <div class="imgdiv">
+                        <img src="img.jpg" width="200" height="200" class="imgchange">
+                    </div>
+                    <button id="bt1">Click Me</button>
+                </div>
+        </section>
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $("#bt1").click(function(){
+            const name = $("#nameid").val();
+            alert(name);
+            $ajax{}
+            $('.imagechange').attr('src',`https://joeschmoe.io/api/v1/divyam`);
+            const b = $('.imagechange');
+            console.log(b);
+            });
+            });
+        </script>
+
+    </html>
+</html>
